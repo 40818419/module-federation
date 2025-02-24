@@ -48,19 +48,17 @@ const VueHeaderWrapper = () => {
 };
 
 function App() {
-  // console.log(Main)
   return (
     <>
       <Suspense fallback={<div>Loading Header...</div>}>
         <VueHeaderWrapper />
       </Suspense>
-
-      <div style={{ display: "flex" }}>
+      <main>
         <Suspense fallback={<div>Loading Header...</div>}>
           <Banner />
         </Suspense>
-        <Footer />
-      </div>
+      </main>
+      <Footer />
     </>
   )
 }

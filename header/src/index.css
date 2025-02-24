@@ -1,0 +1,9 @@
+@import 'tailwindcss';
+
+:root {
+  --brand: #42b883;
+}
+
+@theme inline {
+  --color-brand: var(--brand);
+}
