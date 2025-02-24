@@ -1,0 +1,1 @@
+exports.id=19,exports.ids=[19],exports.modules={6261:e=>{e.exports={default:{"/components/Banner":"./pages/components/Banner","/":"./pages/index"}}}};

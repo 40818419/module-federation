@@ -1,0 +1,409 @@
+{
+  "id": "banner",
+  "name": "banner",
+  "metaData": {
+    "name": "banner",
+    "type": "app",
+    "buildInfo": {
+      "buildVersion": "0.1.0",
+      "buildName": "banner"
+    },
+    "remoteEntry": {
+      "name": "static/chunks/remoteEntry.js",
+      "path": "",
+      "type": "window"
+    },
+    "types": {
+      "path": "",
+      "name": "",
+      "zip": "",
+      "api": ""
+    },
+    "globalName": "banner",
+    "pluginVersion": "0.9.0",
+    "prefetchInterface": false,
+    "publicPath": "auto"
+  },
+  "shared": [
+    {
+      "singleton": true,
+      "requiredVersion": "^15.1.7",
+      "shareScope": "default",
+      "name": "next/dynamic",
+      "version": "15.1.7",
+      "eager": false,
+      "id": "banner:next/dynamic",
+      "assets": {
+        "js": {
+          "async": [
+            "static/chunks/framework.1124f29ed417b975.js"
+          ],
+          "sync": [
+            "static/chunks/334.c0f761d66a7c4fef.js",
+            "static/chunks/953.4edbd8758a23ab04.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^15.1.7",
+      "shareScope": "default",
+      "name": "next/head",
+      "version": "15.1.7",
+      "eager": false,
+      "id": "banner:next/head",
+      "assets": {
+        "js": {
+          "async": [
+            "static/chunks/framework.1124f29ed417b975.js"
+          ],
+          "sync": [
+            "static/chunks/368.6ea222372c9e61b2.js",
+            "static/chunks/987.b5dc7cabfe352c71.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^15.1.7",
+      "shareScope": "default",
+      "name": "next/image",
+      "version": "15.1.7",
+      "eager": false,
+      "id": "banner:next/image",
+      "assets": {
+        "js": {
+          "async": [
+            "static/chunks/framework.1124f29ed417b975.js"
+          ],
+          "sync": [
+            "static/chunks/965.2cd1089dd87cb7f3.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": [
+        "./pages/index"
+      ]
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^15.1.7",
+      "shareScope": "default",
+      "name": "next/link",
+      "version": "15.1.7",
+      "eager": false,
+      "id": "banner:next/link",
+      "assets": {
+        "js": {
+          "async": [
+            "static/chunks/framework.1124f29ed417b975.js"
+          ],
+          "sync": [
+            "static/chunks/106.63e70a723f673b69.js",
+            "static/chunks/827.4127917423abc0d4.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^15.1.7",
+      "shareScope": "default",
+      "name": "next/router",
+      "version": "15.1.7",
+      "eager": false,
+      "id": "banner:next/router",
+      "assets": {
+        "js": {
+          "async": [
+            "static/chunks/framework.1124f29ed417b975.js"
+          ],
+          "sync": [
+            "static/chunks/715.88561d0bd611070b.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^15.1.7",
+      "shareScope": "default",
+      "name": "next/script",
+      "version": "15.1.7",
+      "eager": false,
+      "id": "banner:next/script",
+      "assets": {
+        "js": {
+          "async": [
+            "static/chunks/framework.1124f29ed417b975.js"
+          ],
+          "sync": [
+            "static/chunks/133.50c9cf0df7c5b6c3.js",
+            "static/chunks/514.6fd46132c9bb46fe.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "id": "banner:react-dom/client",
+      "requiredVersion": "^19.0.0",
+      "name": "react-dom/client",
+      "version": "19.0.0",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "static/chunks/framework.1124f29ed417b975.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^19.0.0",
+      "shareScope": "default",
+      "name": "react-dom",
+      "version": "19.0.0",
+      "eager": false,
+      "id": "banner:react-dom",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "static/chunks/framework.1124f29ed417b975.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^19.0.0",
+      "shareScope": "default",
+      "name": "react/jsx-runtime",
+      "version": "19.0.0",
+      "eager": false,
+      "id": "banner:react/jsx-runtime",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "static/chunks/framework.1124f29ed417b975.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": [
+        "./pages/components/Banner",
+        "./pages/index"
+      ]
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^19.0.0",
+      "shareScope": "default",
+      "name": "react",
+      "version": "19.0.0",
+      "eager": false,
+      "id": "banner:react",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "static/chunks/framework.1124f29ed417b975.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^5.1.6",
+      "shareScope": "default",
+      "version": "5.1.6",
+      "name": "styled-jsx/style",
+      "eager": false,
+      "id": "banner:styled-jsx/style",
+      "assets": {
+        "js": {
+          "async": [
+            "static/chunks/framework.1124f29ed417b975.js"
+          ],
+          "sync": [
+            "static/chunks/513.169cb716af4acc40.js",
+            "static/chunks/894.169cb716af4acc40.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^5.1.6",
+      "shareScope": "default",
+      "version": "5.1.6",
+      "name": "styled-jsx",
+      "eager": false,
+      "id": "banner:styled-jsx",
+      "assets": {
+        "js": {
+          "async": [
+            "static/chunks/framework.1124f29ed417b975.js"
+          ],
+          "sync": [
+            "static/chunks/435.f4f8fdad47255133.js",
+            "static/chunks/816.f4f8fdad47255133.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    }
+  ],
+  "remotes": [],
+  "exposes": [
+    {
+      "path": "./pages/components/Banner",
+      "id": "banner:pages/components/Banner",
+      "name": "pages/components/Banner",
+      "requires": [
+        "react/jsx-runtime"
+      ],
+      "file": "pages/components/Banner.tsx",
+      "assets": {
+        "js": {
+          "sync": [
+            "static/chunks/__federation_expose_Banner.1d80b8a30b96f4a4.js"
+          ],
+          "async": [
+            "static/chunks/framework.1124f29ed417b975.js"
+          ]
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      }
+    },
+    {
+      "path": "./pages-map",
+      "id": "banner:pages-map",
+      "name": "pages-map",
+      "requires": [],
+      "file": "node_modules/@module-federation/nextjs-mf/dist/src/loaders/nextPageMapLoader.js!/Users/dev/Sites/federation/banner/node_modules/@module-federation/nextjs-mf/dist/src/loaders/nextPageMapLoader.js",
+      "assets": {
+        "js": {
+          "sync": [
+            "static/chunks/__federation_expose_pages_map.3cae58ff74da079e.js"
+          ],
+          "async": []
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      }
+    },
+    {
+      "path": "./pages-map-v2",
+      "id": "banner:pages-map-v2",
+      "name": "pages-map-v2",
+      "requires": [],
+      "file": "node_modules/@module-federation/nextjs-mf/dist/src/loaders/nextPageMapLoader.js?v2!/Users/dev/Sites/federation/banner/node_modules/@module-federation/nextjs-mf/dist/src/loaders/nextPageMapLoader.js",
+      "assets": {
+        "js": {
+          "sync": [
+            "static/chunks/__federation_expose_pages_map_v2.e503cb634475426c.js"
+          ],
+          "async": []
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      }
+    },
+    {
+      "path": "./pages/index",
+      "id": "banner:pages/index",
+      "name": "pages/index",
+      "requires": [
+        "react/jsx-runtime",
+        "next/image"
+      ],
+      "file": "pages/index.tsx",
+      "assets": {
+        "js": {
+          "sync": [
+            "static/chunks/__federation_expose_pages__index.d411e8f191d38b51.js"
+          ],
+          "async": [
+            "static/chunks/framework.1124f29ed417b975.js",
+            "static/chunks/965.2cd1089dd87cb7f3.js",
+            "static/chunks/144.21d42d518f4d1dec.js"
+          ]
+        },
+        "css": {
+          "sync": [
+            "static/css/d498c84e4ab246b3.css"
+          ],
+          "async": []
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,273 @@
+{
+  "id": "banner",
+  "name": "banner",
+  "metaData": {
+    "name": "banner",
+    "type": "app",
+    "buildInfo": {
+      "buildVersion": "0.1.0",
+      "buildName": "banner"
+    },
+    "remoteEntry": {
+      "name": "remoteEntry.js",
+      "path": "",
+      "type": "commonjs-module"
+    },
+    "types": {
+      "path": "",
+      "name": "",
+      "zip": "",
+      "api": ""
+    },
+    "globalName": "banner",
+    "pluginVersion": "0.9.0",
+    "prefetchInterface": false,
+    "publicPath": "/_next/"
+  },
+  "shared": [
+    {
+      "id": "banner:next/dynamic",
+      "name": "next/dynamic",
+      "version": "15.1.7",
+      "singleton": true,
+      "requiredVersion": "^15.1.7",
+      "assets": {
+        "js": {
+          "async": [
+            "848-6def0581a49978ce.js"
+          ],
+          "sync": [
+            "334-ed9e79d3da00794a.js",
+            "953-17f339e10fa11a76.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "banner:next/head",
+      "name": "next/head",
+      "version": "15.1.7",
+      "singleton": true,
+      "requiredVersion": "^15.1.7",
+      "assets": {
+        "js": {
+          "async": [
+            "848-6def0581a49978ce.js"
+          ],
+          "sync": [
+            "368-915595d796628daf.js",
+            "987-93d3bfaf8d125693.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "banner:next/image",
+      "name": "next/image",
+      "version": "15.1.7",
+      "singleton": true,
+      "requiredVersion": "^15.1.7",
+      "assets": {
+        "js": {
+          "async": [
+            "848-6def0581a49978ce.js"
+          ],
+          "sync": [
+            "965.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "banner:next/link",
+      "name": "next/link",
+      "version": "15.1.7",
+      "singleton": true,
+      "requiredVersion": "^15.1.7",
+      "assets": {
+        "js": {
+          "async": [
+            "848-6def0581a49978ce.js"
+          ],
+          "sync": [
+            "106.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "banner:next/router",
+      "name": "next/router",
+      "version": "15.1.7",
+      "singleton": true,
+      "requiredVersion": "^15.1.7",
+      "assets": {
+        "js": {
+          "async": [
+            "848-6def0581a49978ce.js"
+          ],
+          "sync": [
+            "715.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "banner:next/script",
+      "name": "next/script",
+      "version": "15.1.7",
+      "singleton": true,
+      "requiredVersion": "^15.1.7",
+      "assets": {
+        "js": {
+          "async": [
+            "848-6def0581a49978ce.js"
+          ],
+          "sync": [
+            "133-83c4cf40437c7192.js",
+            "514-b0233c82403a5497.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "banner:react/jsx-runtime",
+      "name": "react/jsx-runtime",
+      "version": "19.0.0",
+      "singleton": true,
+      "requiredVersion": "^19.0.0",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "848-6def0581a49978ce.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "banner:styled-jsx",
+      "name": "styled-jsx",
+      "version": "5.1.6",
+      "singleton": true,
+      "requiredVersion": "^5.1.6",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "245-f2f17bb829504a75.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    }
+  ],
+  "remotes": [],
+  "exposes": [
+    {
+      "id": "banner:pages/components/Banner",
+      "name": "pages/components/Banner",
+      "assets": {
+        "js": {
+          "sync": [
+            "__federation_expose_Banner-b3844e9ac470d246.js"
+          ],
+          "async": [
+            "848-6def0581a49978ce.js"
+          ]
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      },
+      "path": "./pages/components/Banner"
+    },
+    {
+      "id": "banner:pages-map",
+      "name": "pages-map",
+      "assets": {
+        "js": {
+          "sync": [
+            "__federation_expose_pages_map-8b1c579df244259e.js"
+          ],
+          "async": []
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      },
+      "path": "./pages-map"
+    },
+    {
+      "id": "banner:pages-map-v2",
+      "name": "pages-map-v2",
+      "assets": {
+        "js": {
+          "sync": [
+            "__federation_expose_pages_map_v2-1ccd6c26f1702a8a.js"
+          ],
+          "async": []
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      },
+      "path": "./pages-map-v2"
+    },
+    {
+      "id": "banner:pages/index",
+      "name": "pages/index",
+      "assets": {
+        "js": {
+          "sync": [
+            "__federation_expose_pages__index-35f64b48789c0d84.js"
+          ],
+          "async": [
+            "848-6def0581a49978ce.js",
+            "965.js",
+            "8-f9ac0478350780b3.js"
+          ]
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      },
+      "path": "./pages/index"
+    }
+  ]
+}

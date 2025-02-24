@@ -1,0 +1,1 @@
+(self.webpackChunkbanner=self.webpackChunkbanner||[]).push([[19],{6142:e=>{e.exports={default:{"/components/Banner":"./pages/components/Banner","/":"./pages/index"}}}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkbanner=self.webpackChunkbanner||[]).push([[122],{6787:(e,n,a)=>{a.r(n),a.d(n,{default:()=>r});var s=a(8775);let r=()=>(0,s.jsx)("section",{className:"p-2",children:"banner"})}}]);

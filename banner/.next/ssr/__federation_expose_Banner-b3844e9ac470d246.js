@@ -1,0 +1,1 @@
+"use strict";exports.id=122,exports.ids=[122],exports.modules={2592:(e,s,r)=>{r.r(s),r.d(s,{default:()=>d});var t=r(8775);let d=()=>(0,t.jsx)("section",{className:"p-2",children:"banner"})}};
