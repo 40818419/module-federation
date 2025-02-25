@@ -54,7 +54,7 @@ function App() {
         <VueHeaderWrapper />
       </Suspense>
       <main>
-        <Suspense fallback={<div>Loading Header...</div>}>
+        <Suspense fallback={<div>Loading Banner...</div>}>
           <Banner />
         </Suspense>
       </main>

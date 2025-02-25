@@ -59,7 +59,7 @@
             "static/chunks/framework.1124f29ed417b975.js"
           ],
           "sync": [
-            "static/chunks/368.6ea222372c9e61b2.js",
+            "static/chunks/368.82e16192e504054d.js",
             "static/chunks/987.b5dc7cabfe352c71.js"
           ]
         },
@@ -283,7 +283,7 @@
       "assets": {
         "js": {
           "sync": [
-            "static/chunks/__federation_expose_Banner.1d80b8a30b96f4a4.js"
+            "static/chunks/__federation_expose_Banner.7a15902f3e85ac96.js"
           ],
           "async": [
             "static/chunks/framework.1124f29ed417b975.js"
@@ -336,18 +336,14 @@
       "assets": {
         "js": {
           "sync": [
-            "static/chunks/__federation_expose_pages__index.d411e8f191d38b51.js"
+            "static/chunks/__federation_expose_pages__index.876530c236aee748.js"
           ],
           "async": [
-            "static/chunks/framework.1124f29ed417b975.js",
-            "static/chunks/965.2cd1089dd87cb7f3.js",
-            "static/chunks/144.21d42d518f4d1dec.js"
+            "static/chunks/framework.1124f29ed417b975.js"
           ]
         },
         "css": {
-          "sync": [
-            "static/css/d498c84e4ab246b3.css"
-          ],
+          "sync": [],
           "async": []
         }
       },

@@ -1,4 +1,5 @@
 import type { NextConfig } from "next";
+
 import NextFederationPlugin from "@module-federation/nextjs-mf";
 
 const federatedConfig = {
@@ -7,7 +8,12 @@ const federatedConfig = {
   exposes: {
     './Banner': "./pages/components/Banner.tsx",
   },
-  shared: ["react", "react-dom"],
+  shared: {
+    tailwindcss: {
+      eager: true,
+      singleton: true,
+    },
+  },
   extraOptions: {
     exposePages: true,
   },
