@@ -283,14 +283,16 @@
       "assets": {
         "js": {
           "sync": [
-            "static/chunks/__federation_expose_Banner.7a15902f3e85ac96.js"
+            "static/chunks/__federation_expose_Banner.51027e05ec94d747.js"
           ],
           "async": [
             "static/chunks/framework.1124f29ed417b975.js"
           ]
         },
         "css": {
-          "sync": [],
+          "sync": [
+            "static/css/cdb45d1f407c7d7e.css"
+          ],
           "async": []
         }
       },
@@ -336,14 +338,16 @@
       "assets": {
         "js": {
           "sync": [
-            "static/chunks/__federation_expose_pages__index.876530c236aee748.js"
+            "static/chunks/__federation_expose_pages__index.c21c967c2aea8179.js"
           ],
           "async": [
             "static/chunks/framework.1124f29ed417b975.js"
           ]
         },
         "css": {
-          "sync": [],
+          "sync": [
+            "static/css/cdb45d1f407c7d7e.css"
+          ],
           "async": []
         }
       },
