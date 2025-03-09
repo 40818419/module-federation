@@ -3,7 +3,7 @@ import 'tailwindcss/index.css';
 const Banner = () => {
   return (
     <div className="relative flex h-80 justify-center w-full bg-blue-100">
-      <div className="flex gap-x-6 max-w-7xl">
+      <div className="flex gap-x-6 max-w-7xl px-8">
         <div className="flex items-center py-6">
           <img
             className="rounded-xl w-[900px]"
