@@ -1,15 +1,16 @@
 import 'tailwindcss/index.css';
+import Image from 'next/image'
+
+const imageLoader = ({ src, width, quality }: {src: string, width: number, quality?: number }) => {
+  return `http://localhost:3000/${src}?w=${width}&q=${quality || 75}`
+}
 
 const Banner = () => {
   return (
     <div className="relative flex h-80 justify-center w-full bg-blue-100">
       <div className="flex gap-x-6 max-w-7xl px-8">
         <div className="flex items-center py-6">
-          <img
-            className="rounded-xl w-[900px]"
-            src="http://localhost:3000/banner.webp"
-            alt="banner"
-          />
+          <Image className="rounded-xl w-[900px]" loader={imageLoader} src="/banner.webp" alt="banner1" priority/>
         </div>
         <div className="flex items-center">
           <div className="flex flex-wrap items-center flex-row">

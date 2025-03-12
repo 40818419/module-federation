@@ -11,8 +11,10 @@
     "vmf": "NODE_OPTIONS=--experimental-vm-modules npm run dev --experimental-vm-modules"
   },
   "dependencies": {
+    "autoprefixer": "^10.4.21",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "tailwindcss": "^4.0.13"
   },
   "devDependencies": {
     "@eslint/js": "^9.19.0",

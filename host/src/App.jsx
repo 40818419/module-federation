@@ -1,5 +1,6 @@
 import { Suspense, useRef, useEffect, lazy } from 'react'
 import Footer from "footer/Footer"
+import { mount } from  "header/Header"
 
 import { registerRemotes } from '@module-federation/runtime';
 const Banner = lazy(() => import("banner/Banner"));
@@ -31,7 +32,7 @@ const VueHeaderWrapper = () => {
     let vueApp = null;
 
     const loadVueComponent = async () => {
-      const { mount } = await import('header/Header'); // Ensure this matches the expose name
+      //const { mount } = await import('header/Header'); // Ensure this matches the expose name
       vueApp = mount(ref.current);
     };
 
@@ -54,9 +55,7 @@ function App() {
         <VueHeaderWrapper />
       </Suspense>
       <main>
-        <Suspense fallback={<div>Loading Banner...</div>}>
-          <Banner />
-        </Suspense>
+        <Banner />
       </main>
       <Footer />
     </>
